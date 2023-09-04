@@ -6,4 +6,4 @@ RUN yes | sudo apt upgrade
 RUN yes | sudo apt install iputils-ping
 
 RUN yes | pip install --upgrade pip
-RUN yes | pip install psycopg2 sqlalchemy pandas jupyter
+RUN yes | pip install psycopg2 sqlalchemy pandas jupyter black

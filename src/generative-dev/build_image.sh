@@ -1,7 +1,8 @@
 version=0.1.0
+name=dev-generative
 
-docker build -t wstrausser/generative-dev:$version .
-docker build -t wstrausser/generative-dev:latest .
+docker build -t wstrausser/dev-generative:$version .
+docker build -t wstrausser/dev-generative:latest .
 
-docker push wstrausser/generative-dev:$version
-docker push wstrausser/generative-dev:latest
+docker push wstrausser/dev-generative:$version
+docker push wstrausser/dev-generative:latest

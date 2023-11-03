@@ -1,7 +1,8 @@
 version=0.1.0
+name=dev-account-db
 
-docker build -t wstrausser/account-db-dev:$version .
-docker build -t wstrausser/account-db-dev:latest .
+docker build -t wstrausser/$name:$version .
+docker build -t wstrausser/$name:latest .
 
-docker push wstrausser/account-db-dev:$version
-docker push wstrausser/account-db-dev:latest
+docker push wstrausser/$name:$version
+docker push wstrausser/$name:latest

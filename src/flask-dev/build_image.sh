@@ -1,7 +1,8 @@
 version=0.1.0
+name=dev-flask
 
-docker build -t wstrausser/flask-dev:$version .
-docker build -t wstrausser/flask-dev:latest .
+docker build -t wstrausser/$name:$version .
+docker build -t wstrausser/$name:latest .
 
-docker push wstrausser/flask-dev:$version
-docker push wstrausser/flask-dev:latest
+docker push wstrausser/$name:$version
+docker push wstrausser/$name:latest

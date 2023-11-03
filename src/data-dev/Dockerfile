@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/vscode/devcontainers/python:3.11
+FROM mcr.microsoft.com/vscode/devcontainers/python:bullseye
 
 RUN yes | sudo apt update
 RUN yes | sudo apt upgrade
